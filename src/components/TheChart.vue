@@ -3,9 +3,9 @@
         :title="title" :subtitle="subtitle" :minimum="minimum" :maximum="maximum" :interval="interval" categoryField="name" :minorTickLines="minorTickLine" :majorTickLines="majorTickLine"
         :legendSettings="legend" :valueFill="valueFill" :targetColor="targetColor" :animation="animation">
         <e-bullet-range-collection>
-          <e-bullet-range end="25" opacity="1" color="#DBE7F3"></e-bullet-range>
-          <e-bullet-range end="37" opacity="1" color="#BBCEE7"></e-bullet-range>
-          <e-bullet-range end="45" opacity="1" color="#96B2D7"></e-bullet-range>
+          <e-bullet-range end="25" opacity="1" color="#DBE7F3" name="poor"></e-bullet-range>
+          <e-bullet-range end="37" opacity="1" color="#BBCEE7" name="avg"></e-bullet-range>
+          <e-bullet-range end="45" opacity="1" color="#96B2D7" name="good"></e-bullet-range>
         </e-bullet-range-collection>
     </ejs-bulletchart>
 </template>
